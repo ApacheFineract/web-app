@@ -103,6 +103,7 @@ import { ViewFundComponent } from './manage-funds/view-fund/view-fund.component'
 import { EditFundComponent } from './manage-funds/edit-fund/edit-fund.component';
 import { CreateFundComponent } from './manage-funds/create-fund/create-fund.component';
 import { InvestorsComponent } from './investors/investors.component';
+import { InsertCurrenciesComponent } from './currencies/insert-currencies/insert-currencies.component';
 
 /** Organization Routes */
 const routes: Routes = [
@@ -279,6 +280,11 @@ const routes: Routes = [
               path: 'manage',
               data: { title: 'Manage Currencies', breadcrumb: 'Manage Currencies' },
               component: ManageCurrenciesComponent
+            },
+            {
+              path: 'insert',
+              data: { title: 'Insert New Currency', breadcrumb: 'Insert New Currency' },
+              component: InsertCurrenciesComponent
             }
           ]
         },

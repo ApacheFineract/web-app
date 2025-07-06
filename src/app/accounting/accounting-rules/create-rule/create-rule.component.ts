@@ -20,6 +20,7 @@ import { STANDALONE_SHARED_IMPORTS } from 'app/standalone-shared.module';
   selector: 'mifosx-create-rule',
   templateUrl: './create-rule.component.html',
   styleUrls: ['./create-rule.component.scss'],
+  standalone: true,
   imports: [
     ...STANDALONE_SHARED_IMPORTS,
     MatRadioGroup,

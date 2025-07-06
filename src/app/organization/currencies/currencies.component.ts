@@ -69,6 +69,9 @@ export class CurrenciesComponent implements OnInit, AfterViewInit {
 
   /* Reference of add/edit button */
   @ViewChild('buttonAddEdit') buttonAddEdit: ElementRef<any>;
+  /* Reference of add/edit button */
+  @ViewChild('buttonAdd') buttonAdd: ElementRef<any>;
+
   /* Template for popover on add/edit button */
   @ViewChild('templateButtonAddEdit') templateButtonAddEdit: TemplateRef<any>;
   /* Reference of currenies table */

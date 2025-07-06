@@ -5,6 +5,12 @@
       {{ 'labels.buttons.Add/Edit' | translate }}
     </button>
   </div>
+  <div #buttonAdd class="in-block">
+    <button mat-raised-button color="primary" [routerLink]="'insert'" *mifosxHasPermission="'INSERT_CURRENCY'">
+      <fa-icon icon="plus" class="m-r-10"></fa-icon>
+      {{ 'labels.buttons.Add' | translate }}
+    </button>
+  </div>
 </div>
 
 <div class="container">
