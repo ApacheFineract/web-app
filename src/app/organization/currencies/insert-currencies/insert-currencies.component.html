@@ -5,7 +5,19 @@
         <div class="layout-column">
           <mat-form-field>
             <mat-label>Currency Code</mat-label>
-            <input matInput required formControlName="currencyCode" />
+            <input matInput required formControlName="currencyCode" minlength="3" maxlength="3" />
+            @if (isCurrencyCodeValid()) {
+              <mat-error>
+                {{ 'labels.inputs.Currency Code' | translate }} {{ 'labels.commons.is' | translate }}
+                <strong>{{ 'labels.commons.required' | translate }}</strong>
+              </mat-error>
+            }
+            @if (insertCurrencyForm.controls.currencyCode.hasError('minlength')) {
+              <mat-error>
+                {{ 'minLength' | translate }} {{ 'labels.commons.is' | translate }}
+                <strong>{{ 'labels.commons.required' | translate }}</strong>
+              </mat-error>
+            }
           </mat-form-field>
 
           <mat-form-field>
@@ -23,7 +35,12 @@
 
           <mat-form-field>
             <mat-label>Decimal Places</mat-label>
-            <input matInput required formControlName="decimalPlaces" />
+            <mat-select id="decimalPlaces" name="decimalPlaces" matInput required formControlName="decimalPlaces">
+              <mat-option value="0">0</mat-option>
+              <mat-option value="1">1</mat-option>
+              <mat-option value="2">2</mat-option>
+              <mat-option value="3">3</mat-option>
+            </mat-select>
             <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
               {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
               <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -35,8 +52,8 @@
           </mat-form-field>
 
           <mat-form-field>
-            <mat-label>In Multiples Of</mat-label>
-            <input matInput required formControlName="inMultiplesOf" />
+            <mat-label>In Multiples Of (sub-units)</mat-label>
+            <input type="number" matInput required formControlName="inMultiplesOf" min="0.001" max="1" />
             <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
               {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
               <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -62,7 +79,7 @@
 
           <mat-form-field>
             <mat-label>Name Code</mat-label>
-            <input matInput required formControlName="nameCode" />
+            <input matInput required formControlName="nameCode" readonly />
             <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
               {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
               <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -81,7 +98,6 @@
         </button>
         <button mat-raised-button color="primary" *mifosxHasPermission="'CREATE_STAFF'">
           {{ 'labels.buttons.Submit' | translate }}
-          <mifosx-popover [ngModel]="attachComponentPortal" />
         </button>
       </mat-card-actions>
     </form>

@@ -39,7 +39,7 @@ export const STANDALONE_SHARED_IMPORTS = [
   MatDatepickerToggle,
   MatDatepicker,
   MatButton,
-  // DateFormatPipe,
+  DateFormatPipe,
   HasPermissionDirective,
 
   // Pipes and Directives
