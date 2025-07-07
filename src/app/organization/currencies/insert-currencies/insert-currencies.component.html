@@ -12,7 +12,7 @@
                 <strong>{{ 'labels.commons.required' | translate }}</strong>
               </mat-error>
             }
-            @if (insertCurrencyForm.controls.currencyCode.hasError('minlength')) {
+            @if (isCurrencyCodeMinLengthValid()) {
               <mat-error>
                 {{ 'minLength' | translate }} {{ 'labels.commons.is' | translate }}
                 <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -22,7 +22,7 @@
 
           <mat-form-field>
             <mat-label>Currency Name</mat-label>
-            <input matInput required formControlName="currencyName" />
+            <input matInput required formControlName="currencyName" maxlength="50" />
             <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
               {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
               <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -66,7 +66,7 @@
 
           <mat-form-field>
             <mat-label>Display Symbol</mat-label>
-            <input matInput required formControlName="displaySymbol" />
+            <input type="text" matInput required formControlName="displaySymbol" maxLength="10" />
             <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
               {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
               <strong>{{ 'labels.commons.required' | translate }}</strong>
@@ -79,15 +79,7 @@
 
           <mat-form-field>
             <mat-label>Name Code</mat-label>
-            <input matInput required formControlName="nameCode" readonly />
-            <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('required')">
-              {{ 'labels.inputs.Currency Name' | translate }} {{ 'labels.commons.is' | translate }}
-              <strong>{{ 'labels.commons.required' | translate }}</strong>
-            </mat-error>
-            <mat-error *ngIf="insertCurrencyForm.controls.currencyCode.hasError('pattern')">
-              {{ 'labels.inputs.Currency Name' | translate }} <strong>{{ 'labels.inputs.cannot' | translate }}</strong>
-              {{ 'labels.inputs.begin with a special character or number' | translate }}
-            </mat-error>
+            <input matInput formControlName="nameCode" readonly />
           </mat-form-field>
         </div>
       </mat-card-content>

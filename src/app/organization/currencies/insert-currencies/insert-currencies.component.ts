@@ -36,7 +36,9 @@ export class InsertCurrenciesComponent implements OnInit {
         Validators.minLength(3)]
     }),
     currencyName: new FormControl('', {
-      validators: [Validators.required]
+      validators: [
+        Validators.required,
+        Validators.maxLength(50)]
     }),
     decimalPlaces: new FormControl<number>(2, {
       validators: [Validators.required]
@@ -48,16 +50,23 @@ export class InsertCurrenciesComponent implements OnInit {
         Validators.min(0.001)]
     }),
     displaySymbol: new FormControl('', {
-      validators: [Validators.required]
+      validators: [
+        Validators.required,
+        Validators.maxLength(10)]
     }),
     nameCode: new FormControl('currency.', {
-      validators: [Validators.required]
+      validators: [Validators.pattern('^currency\.[A-Z]{3}$')]
     })
   });
 
   onSubmit() {
     console.log('Currency Code: ', this.insertCurrencyForm.controls.currencyCode.value);
-    this.insertCurrencyForm.reset();
+    console.log('Currency Name: ', this.insertCurrencyForm.controls.currencyName.value);
+    console.log('Decimal Places: ', this.insertCurrencyForm.controls.decimalPlaces.value);
+    console.log('In Multiples Of: ', this.insertCurrencyForm.controls.inMultiplesOf.value);
+    console.log('Display Symbol: ', this.insertCurrencyForm.controls.displaySymbol.value);
+    console.log('Name Code: ', this.insertCurrencyForm.controls.nameCode.value);
+    this.insertCurrencyForm.reset({}, { emitEvent: false });
   }
 
   isCurrencyCodeValid() {
@@ -66,5 +75,9 @@ export class InsertCurrenciesComponent implements OnInit {
       this.insertCurrencyForm.controls.currencyCode.touched &&
       this.insertCurrencyForm.controls.currencyCode.hasError('required')
     );
+  }
+
+  isCurrencyCodeMinLengthValid() {
+    return this.insertCurrencyForm.controls.currencyCode.hasError('minlength');
   }
 }
