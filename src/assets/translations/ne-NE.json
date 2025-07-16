@@ -1347,6 +1347,7 @@
       "ChargeOff Fraud Expense": "धोखाधडी खर्च चार्ज गर्नुहोस्",
       "Charges": "शुल्कहरू",
       "Checked Date": "जाँच गरिएको मिति",
+      "Client Ip": "क्लाइन्ट आईपी",
       "Checked To Date": "मिति सम्म जाँच गरियो",
       "Checker": "परीक्षक",
       "Checker From Date": "मिति देखि परीक्षक",
@@ -1883,6 +1884,7 @@
       "Mandatory": "अनिवार्य",
       "Mandatory Guarantee(%)": "अनिवार्य ग्यारेन्टी (%)",
       "Manual Entries Allowed": "म्यानुअल प्रविष्टिहरूलाई अनुमति दिइएको छ",
+      "Manual Journal Entry": "म्यानुअल जर्नल प्रविष्टि",
       "Mapper Key": "म्यापर कुञ्जी",
       "Mapper Value": "म्यापर मान",
       "Mapping id": "म्यापिङ आईडी",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "बाइ डाउन शुल्क आय प्रकार",
       "Buy down fees": "खरिद शुल्क",
       "Income from Buy down fees": "खरिद शुल्कबाट हुने आम्दानी",
-      "Buy down fee Expense": "खरीद शुल्क खर्च"
+      "Buy down fee Expense": "खरीद शुल्क खर्च",
+      "Skip Interest Refund Transaction Posting": "ब्याज फिर्ता पोस्टिङ्ग छोड्नुहोस्"
     },
     "links": {
       "Community": "समुदाय",
@@ -2522,7 +2525,7 @@
       "Block Withdrawal": "ब्लक निकासी",
       "Breadcrumbs": "ब्रेडक्रम्ब्स",
       "Buy Down Fee": "खरिद डाउन शुल्क",
-      "Buy Down Fee Adjustment": "खरिद शुल्क समायोजन",
+      "Buy Down Fee Adjustment": "डाउन शुल्क समायोजन किन्नुहोस्",
       "Calculate Interest": "ब्याज गणना गर्नुहोस्",
       "Capitalized Income": "पुँजीगत आय",
       "Capitalized Income Adjustment": "पूंजीकृत आय समायोजन",

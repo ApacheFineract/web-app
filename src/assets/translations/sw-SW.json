@@ -1347,6 +1347,7 @@
       "ChargeOff Fraud Expense": "Lipiza Gharama za Ulaghai",
       "Charges": "Malipo",
       "Checked Date": "Tarehe ya Kukaguliwa",
+      "Client Ip": "IP ya mteja",
       "Checked To Date": "Imeangaliwa Hadi Sasa",
       "Checker": "Kikagua",
       "Checker From Date": "Checker Kutoka Tarehe",
@@ -1883,6 +1884,7 @@
       "Mandatory": "Lazima",
       "Mandatory Guarantee(%)": "Dhamana ya Lazima(%)",
       "Manual Entries Allowed": "Maingizo Mwongozo Yanaruhusiwa",
+      "Manual Journal Entry": "Kuingia kwa Jarida kwa Mwongozo",
       "Mapper Key": "Ufunguo wa ramani",
       "Mapper Value": "Thamani ya ramani",
       "Mapping id": "Kitambulisho cha ramani",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "Nunua aina ya mapato ya chini",
       "Buy down fees": "Nunua ada za chini",
       "Income from Buy down fees": "Mapato kutoka kwa ada ya Kununua",
-      "Buy down fee Expense": "Kununua ada ya chini Gharama"
+      "Buy down fee Expense": "Kununua ada ya chini Gharama",
+      "Skip Interest Refund Transaction Posting": "Ruka uchapishaji wa muamala wa kurejesha riba"
     },
     "links": {
       "Community": "Jumuiya",

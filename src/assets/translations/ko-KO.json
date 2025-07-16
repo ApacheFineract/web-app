@@ -1348,6 +1348,7 @@
       "ChargeOff Fraud Expense": "사기 비용 상각",
       "Charges": "요금",
       "Checked Date": "확인 날짜",
+      "Client Ip": "고객 IP",
       "Checked To Date": "확인된 날짜",
       "Checker": "체커",
       "Checker From Date": "검사기 시작 날짜",
@@ -1884,6 +1885,7 @@
       "Mandatory": "필수적인",
       "Mandatory Guarantee(%)": "의무보증(%)",
       "Manual Entries Allowed": "수동 입력이 허용됨",
+      "Manual Journal Entry": "수동 저널 입력",
       "Mapper Key": "매퍼 키",
       "Mapper Value": "매퍼 값",
       "Mapping id": "매핑 ID",
@@ -2486,7 +2488,8 @@
       "Buy down fee income type": "매수 수수료 수익 유형",
       "Buy down fees": "매수 수수료",
       "Income from Buy down fees": "매입 수수료 수입",
-      "Buy down fee Expense": "매입 수수료 비용"
+      "Buy down fee Expense": "매입 수수료 비용",
+      "Skip Interest Refund Transaction Posting": "이자 환불 거래 게시 건너뛰기"
     },
     "links": {
       "Community": "지역 사회",
@@ -2523,7 +2526,7 @@
       "Block Withdrawal": "출금 차단",
       "Breadcrumbs": "빵 부스러기",
       "Buy Down Fee": "구매 수수료",
-      "Buy Down Fee Adjustment": "바이 다운 수수료 조정",
+      "Buy Down Fee Adjustment": "매수 수수료 조정",
       "Calculate Interest": "이자 계산",
       "Capitalized Income": "자본화 소득",
       "Capitalized Income Adjustment": "자본화 소득 조정",

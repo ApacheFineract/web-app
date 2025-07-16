@@ -1347,6 +1347,7 @@
       "ChargeOff Fraud Expense": "Atstāj krāpšanas izdevumus",
       "Charges": "Maksas",
       "Checked Date": "Pārbaudes datums",
+      "Client Ip": "Klienta IP",
       "Checked To Date": "Pārbaudīts līdz datumam",
       "Checker": "Pārbaudītājs",
       "Checker From Date": "Pārbaudītājs no datuma",
@@ -1883,6 +1884,7 @@
       "Mandatory": "Obligāts",
       "Mandatory Guarantee(%)": "Obligātā garantija (%)",
       "Manual Entries Allowed": "Manuālas ievades ir atļautas",
+      "Manual Journal Entry": "Manuālais žurnāla ieraksts",
       "Mapper Key": "Mapper Key",
       "Mapper Value": "Kartētāja vērtība",
       "Mapping id": "Kartēšanas ID",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "Atpirkšanas maksas ienākumu veids",
       "Buy down fees": "Iepirkuma maksas",
       "Income from Buy down fees": "Ienākumi no akciju izpirkšanas komisijas maksām",
-      "Buy down fee Expense": "Akciju izpirkšanas komisijas izdevumi"
+      "Buy down fee Expense": "Akciju izpirkšanas komisijas izdevumi",
+      "Skip Interest Refund Transaction Posting": "Izlaist procentu atmaksas ierakstu"
     },
     "links": {
       "Community": "kopiena",
@@ -2522,7 +2525,7 @@
       "Block Withdrawal": "Bloķēt izņemšanu",
       "Breadcrumbs": "Maizes drupačas",
       "Buy Down Fee": "Nopirkt Down Fee",
-      "Buy Down Fee Adjustment": "Izpirkšanas maksas korekcija",
+      "Buy Down Fee Adjustment": "Pirkšanas maksas korekcija",
       "Calculate Interest": "Aprēķināt procentus",
       "Capitalized Income": "Kapitalizētie ienākumi",
       "Capitalized Income Adjustment": "Kapitalizēto ienākumu korekcija",

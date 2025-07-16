@@ -1347,6 +1347,7 @@
       "ChargeOff Fraud Expense": "Betrugskosten abrechnen",
       "Charges": "Gebühren",
       "Checked Date": "Geprüftes Datum",
+      "Client Ip": "Kunden-IP",
       "Checked To Date": "Bisher überprüft",
       "Checker": "Checker",
       "Checker From Date": "Checker-Von-Datum",
@@ -1883,6 +1884,7 @@
       "Mandatory": "Obligatorisch",
       "Mandatory Guarantee(%)": "Obligatorische Garantie (%)",
       "Manual Entries Allowed": "Manuelle Eingaben erlaubt",
+      "Manual Journal Entry": "Manuelle Journalbuchung",
       "Mapper Key": "Mapper-Schlüssel",
       "Mapper Value": "Mapper-Wert",
       "Mapping id": "Zuordnungs-ID",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "Einnahmeart der Buy-Down-Gebühr",
       "Buy down fees": "Buy-Down-Gebühren",
       "Income from Buy down fees": "Einnahmen aus Buy-Down-Gebühren",
-      "Buy down fee Expense": "Aufwendungen aus Buy-Down-Gebühren"
+      "Buy down fee Expense": "Aufwendungen aus Buy-Down-Gebühren",
+      "Skip Interest Refund Transaction Posting": "Buchung der Zinsrückerstattung überspringen"
     },
     "links": {
       "Community": "Gemeinschaft",
@@ -2521,8 +2524,8 @@
       "Block Deposit": "Blockeinzahlung",
       "Block Withdrawal": "Auszahlung blockieren",
       "Breadcrumbs": "Semmelbrösel",
-      "Buy Down Fee": "Ankaufsgebühr",
-      "Buy Down Fee Adjustment": "Anpassung der Ankaufsgebühr",
+      "Buy Down Fee": "Anzahlungsgebühr",
+      "Buy Down Fee Adjustment": "Anpassung der Buy-Down-Gebühr",
       "Calculate Interest": "Zinsen berechnen",
       "Capitalized Income": "Kapitalisiertes Einkommen",
       "Capitalized Income Adjustment": "Anpassung des kapitalisierten Einkommens",

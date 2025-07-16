@@ -1346,6 +1346,7 @@
       "ChargeOff Fraud Expense": "Cargo por fraude de cancelación",
       "Charges": "Comisiones",
       "Checked Date": "Fecha comprobada",
+      "Client Ip": "IP del cliente",
       "Checked To Date": "Comprobado hasta la fecha",
       "Checker": "Inspector",
       "Checker From Date": "Comprobador desde la fecha",
@@ -1882,6 +1883,7 @@
       "Mandatory": "Obligatorio",
       "Mandatory Guarantee(%)": "Garantía obligatoria(%)",
       "Manual Entries Allowed": "Permitir Entradas manuales",
+      "Manual Journal Entry": "Entrada de diario manual",
       "Mapper Key": "Clave del asignador",
       "Mapper Value": "Valor del asignador",
       "Mapping id": "Identificación de mapeo",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "Tipo de ingreso de comisión de compra anticipada",
       "Buy down fees": "Tarifas de compra anticipada",
       "Income from Buy down fees": "Ingresos por comisiones de compra inicial",
-      "Buy down fee Expense": "Gastos por comisiones de compra inicial"
+      "Buy down fee Expense": "Gastos por comisiones de compra inicial",
+      "Skip Interest Refund Transaction Posting": "Omitir el registro de la devolución de intereses"
     },
     "links": {
       "Community": "Comunidad",
@@ -2522,7 +2525,7 @@
       "Block Withdrawal": "Bloquear retiros",
       "Breadcrumbs": "Migas de pan",
       "Buy Down Fee": "Comisión de compra inicial",
-      "Buy Down Fee Adjustment": "Ajuste de la tasa de recompra",
+      "Buy Down Fee Adjustment": "Ajuste de la comisión de compra",
       "Calculate Interest": "Calcular interés",
       "Capitalized Income": "Ingreso capitalizado",
       "Capitalized Income Adjustment": "Ajuste de ingresos capitalizados",

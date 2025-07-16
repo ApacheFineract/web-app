@@ -1347,6 +1347,7 @@
       "ChargeOff Fraud Expense": "Apmokestinkite sukčiavimo išlaidas",
       "Charges": "Mokesčiai",
       "Checked Date": "Patikrinimo data",
+      "Client Ip": "Kliento IP",
       "Checked To Date": "Patikrinta iki datos",
       "Checker": "Šaškė",
       "Checker From Date": "Tikrinimas nuo datos",
@@ -1883,6 +1884,7 @@
       "Mandatory": "Privaloma",
       "Mandatory Guarantee(%)": "Privaloma garantija (%)",
       "Manual Entries Allowed": "Leidžiami rankiniai įvedimai",
+      "Manual Journal Entry": "Rankinis žurnalo įrašas",
       "Mapper Key": "Žemėlapio kūrėjo raktas",
       "Mapper Value": "Žemėlapio vertė",
       "Mapping id": "Atvaizdavimo ID",
@@ -2485,7 +2487,8 @@
       "Buy down fee income type": "Supirkimo mokesčio pajamų tipas",
       "Buy down fees": "Išpirkimo mokesčiai",
       "Income from Buy down fees": "Pajamos iš supirkimo mokesčių",
-      "Buy down fee Expense": "Supirkimo mokesčio išlaidos"
+      "Buy down fee Expense": "Supirkimo mokesčio išlaidos",
+      "Skip Interest Refund Transaction Posting": "Praleisti palūkanų grąžinimo įrašą"
     },
     "links": {
       "Community": "bendruomenė",
@@ -2522,7 +2525,7 @@
       "Block Withdrawal": "Blokuoti išėmimą",
       "Breadcrumbs": "Duonos trupiniai",
       "Buy Down Fee": "Pirkimo mokestis",
-      "Buy Down Fee Adjustment": "Išpirkimo mokesčio koregavimas",
+      "Buy Down Fee Adjustment": "Nupirkimo mokesčio koregavimas",
       "Calculate Interest": "Apskaičiuokite palūkanas",
       "Capitalized Income": "Kapitalizuotos pajamos",
       "Capitalized Income Adjustment": "Kapitalizuotų pajamų koregavimas",
